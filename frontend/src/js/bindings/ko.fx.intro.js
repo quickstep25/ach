@@ -34,8 +34,8 @@ define(["jquery", "knockout", "velocity", "velocity.ui"], function ($, ko, veloc
 						{ e: $logo,	p: { rotateZ: [1080, 0], scale: [1.7, 1.7], top: [posLEn, posLSt] },	o: { duration: speed, easing: [0.15, 0.79, 0.79, 0.96] } },
 						{ e: $logo,	p: { scale: [1], top: [0] },											o: { duration: speed / 1.5, delay: speed / 3, sequenceQueue: true } },
 						{ e: $path,	p: { fill: light },														o: { duration: speed, delay: 0, sequenceQueue: false } },
-						{ e: $fnam, p: { left: [0, posFN] },												o: { duration: speed / 1.4, delay: 0, sequenceQueue: false } },
-						{ e: $lnam, p: { right: [0, posLN] },												o: { duration: speed / 1.4, delay: 0, sequenceQueue: false } },
+						{ e: $fnam, p: { left: [0, posFN] },												o: { duration: speed / 1.4, delay: 0, sequenceQueue: false, visibility: 'visible' } },
+						{ e: $lnam, p: { right: [0, posLN] },												o: { duration: speed / 1.4, delay: 0, sequenceQueue: false, visibility: 'visible' } },
 						{ e: $tgln, p: "transition.slideDownIn",											o: { duration: speed / 2, stagger: 100, delay: speed, display: null, sequenceQueue: false } },
 						{ e: $list, p: { height: 40 },														o: { duration: speed / 5, delay: 400, sequenceQueue: false } }
 					];
@@ -51,11 +51,7 @@ define(["jquery", "knockout", "velocity", "velocity.ui"], function ($, ko, veloc
 					$tgln.css("opacity", 0);
 					$list.css("height", 0);
 					$path.css("fill", "#758961");
-					$(element).velocity({
-						opacity: [1, "easeInSine", 0]
-					}, {
-						complete: function () { return startFX(); }
-					});
+					return $(element).velocity({ opacity: [1, "easeInSine", 0] }, { complete: function () { return startFX(); } });
 				}
 				return prepFX();
 			});

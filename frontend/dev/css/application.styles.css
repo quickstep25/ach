@@ -2940,13 +2940,13 @@ button.close {
   display: inline-block;
 }
 .page-main .content-body .text-group .text-name .firstname {
-  left: -2000px;
+  visibility: hidden;
   color: #758961;
   font-weight: 400;
   letter-spacing: -2px;
 }
 .page-main .content-body .text-group .text-name .lastname {
-  right: -2000px;
+  visibility: hidden;
   color: #3F512C;
   font-weight: 600;
   letter-spacing: 1px;
