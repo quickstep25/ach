@@ -55,6 +55,7 @@
 						stroke-miterlimit:		3;
 						stroke:					none;
 						fill:					@camoflauge-green;
+						fill:					none;
 					}
 					.logo-path-a {
 						stroke-dasharray:		0;
@@ -96,11 +97,13 @@
 						display: 				inline-block;
 					}
 					.firstname {
+						left: 					-2000px;
 						color: 					@camoflauge-green;
 						font-weight: 			400;
 						letter-spacing: 		-2px;
 					}
 					.lastname {
+						right: 					-2000px;
 						color: 					@rifle-green;
 						font-weight: 			600;
 						letter-spacing: 		1px;
@@ -110,6 +113,9 @@
 					font-family:				@font-family-base;
 					font-size: 					13px;
 					color: 						@text-color;
+					span {
+						.opacity				(0);
+					}
 					span + span {
 						margin-left: 			3px;
 					}
@@ -126,6 +132,7 @@
 		margin:									0;
 		padding:								0;
 		overflow: 								hidden;
+		height: 								0;
 		&.bottom-responsive {
 			position: 							absolute;
 			left: 								0;

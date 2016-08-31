@@ -2889,6 +2889,7 @@ button.close {
   stroke-miterlimit: 3;
   stroke: none;
   fill: #758961;
+  fill: none;
 }
 .page-main .content-body .logo-group .logo .logo-path-a {
   stroke-dasharray: 0;
@@ -2939,11 +2940,13 @@ button.close {
   display: inline-block;
 }
 .page-main .content-body .text-group .text-name .firstname {
+  left: -2000px;
   color: #758961;
   font-weight: 400;
   letter-spacing: -2px;
 }
 .page-main .content-body .text-group .text-name .lastname {
+  right: -2000px;
   color: #3F512C;
   font-weight: 600;
   letter-spacing: 1px;
@@ -2952,6 +2955,10 @@ button.close {
   font-family: 'Hind', 'Montserrat', 'Helvetica Neue', 'Lucida Grande', 'Segoe UI', 'Geneva', 'Franklin Gothic Medium', 'Arial', sans-serif;
   font-size: 13px;
   color: #2A2B2E;
+}
+.page-main .content-body .text-group .text-tagline span {
+  opacity: 0;
+  filter: alpha(opacity=0);
 }
 .page-main .content-body .text-group .text-tagline span + span {
   margin-left: 3px;
@@ -2971,6 +2978,7 @@ button.close {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  height: 0;
 }
 .page-main .content-nav.bottom-responsive {
   position: absolute;

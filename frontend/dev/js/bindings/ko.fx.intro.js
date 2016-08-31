@@ -50,6 +50,7 @@ define(["jquery", "knockout", "velocity", "velocity.ui"], function ($, ko, veloc
 					$lnam.css("right", posLN);
 					$tgln.css("opacity", 0);
 					$list.css("height", 0);
+					$path.css("fill", "#758961");
 					$(element).velocity({
 						opacity: [1, "easeInSine", 0]
 					}, {
