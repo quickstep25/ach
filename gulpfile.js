@@ -32,7 +32,6 @@
 		rehtml	= require('gulp-html-replace'),
 		rjs		= require('gulp-requirejs-bundler'),
 		rmd		= require('gulp-remove-markdown'),
-		symlink	= require('gulp-symlink'),
 		// BASE DIRECTORIES
 		bases	= {
 			custom	: './custom_modules/',
