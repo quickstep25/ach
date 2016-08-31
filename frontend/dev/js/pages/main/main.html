@@ -1,0 +1,24 @@
+
+<section data-bind="attr: { class: componentID }, fxIntro">
+  <article role="group" class="content-body brand-group">
+    <figure aria-label="ACH Brand Logo" role="group" class="logo-group">
+      <svg viewBox="0 0 100 100" class="logo" preserveAspectRatio="xMidYMid meet" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <title>Adam Hill - Brand Logo</title>
+        <path class="logo-path-a" d="M65.5,2.5V11A42,42,0,0,1,50,92H47.5V13.1A37,37,0,0,0,21.3,73.3L27,67.6A28.7,28.7,0,0,1,21.3,54H39.5V98.9a50,50,0,0,0,26-96.4ZM21.3,46A29,29,0,0,1,39.5,23V46Z"/>
+        <path class="logo-path-h" d="M87,50A37,37,0,0,1,68.5,82V72.3A28.9,28.9,0,0,0,78.7,54H60.5V85.5a36.4,36.4,0,0,1-8,1.4V8.1H50A42,42,0,0,0,34.5,89v8.5a50,50,0,0,1,26-96.4V46H78.7A28.9,28.9,0,0,0,68.5,27.7V18A37,37,0,0,1,87,50Z"/>
+      </svg>
+    </figure>
+    <div aria-label="ACH Display Name and Tagline" role="group" class="text-group">
+      <div class="text-name"><span class="firstname">Adam</span><span class="lastname">Hill</span></div>
+      <div class="text-tagline"><span>Experienced </span><span>Professional </span><span>Carpenter</span></div>
+    </div>
+  </article>
+  <nav role="group" class="content-nav bottom-responsive links-group">
+    <ul role="menu" class="list-inline links-list">
+      <!-- ko foreach: contactMethods -->
+      <li role="presentation" class="list-item-container"><a data-bind="click: $parent.showModal" class="list-item"><i data-bind="css: icon" class="fa fa-fw"></i><span data-bind="text: label"></span></a></li>
+      <!-- /ko -->
+    </ul>
+  </nav>
+</section>
+<div tab-index="-1" role="dialog" data-bind="modal: { options: { backdrop: 'static' }, visible: modalVisible }" class="modal fade"></div>

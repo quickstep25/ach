@@ -1,0 +1,46 @@
+{
+	"name": "me.ach",
+	"version": "1.0.0",
+	"authors": [
+		"Doug Hill",
+		"Adam Hill"
+	],
+	"description": "Virtual business card / portfolio site.",
+	"main": "gulpfile.js",
+	"moduleType": [
+		"amd",
+		"globals",
+		"node"
+	],
+	"keywords": [
+		"vcard",
+		"virtual card",
+		"online profile",
+		"web profile app",
+		"mobile profile app"
+	],
+	"license": "SEE LICENSE IN LICENSE.TXT",
+	"private": true,
+	"ignore": [
+		"node_modules",
+		"bower_modules",
+		"test",
+		"tests",
+		"**/_dev",
+		"**/_devassets",
+		"**/_assets"
+	],
+	"dependencies": {
+		"font-awesome": "^4.0",
+		"knockoutjs": "^3.0",
+		"requirejs-text": "^2.0",
+		"velocity": "^1.0",
+		"requirejs": "^2.0",
+		"crossroads": "^0.12",
+		"hasher": "^1.2.0",
+		"js-signals": "^1.0.0",
+		"store-js": "store.js#^1.0",
+		"moment": "^2.0",
+		"jquery": "^2.1.3"
+	}
+}

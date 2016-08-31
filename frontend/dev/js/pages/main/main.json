@@ -1,0 +1,26 @@
+[
+  {
+    "id": "LinkedIn",
+    "label": "resume",
+    "url": "http://www.linkedin.com",
+    "class": "",
+    "icon": "fa-linkedin-square",
+    "prompt": "View resume on <span>LinkedIn </span>?"
+  },
+  {
+    "id": "Email",
+    "label": "email",
+    "url": "mailto:adamunit13@gmail.com",
+    "class": "",
+    "icon": "fa-envelope-square",
+    "prompt": "Send an email to <span>adamunit13@gmail.com </span>?"
+  },
+  {
+    "id": "Phone",
+    "label": "phone",
+    "url": "tel:1-555-555-1212",
+    "class": "",
+    "icon": "fa-phone-square",
+    "prompt": "Place a call to <span> 555-555-1212 </span>?"
+  }
+]
