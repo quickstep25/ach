@@ -18,9 +18,9 @@
   {
     "id": "Phone",
     "label": "phone",
-    "url": "tel:1-555-555-1212",
+    "url": "tel:1-828-674-7173",
     "class": "",
     "icon": "fa-phone-square",
-    "prompt": "Place a call to <span> 555-555-1212 </span>?"
+    "prompt": "Place a call to <span> (828) 674-7173 </span>?"
   }
 ]
