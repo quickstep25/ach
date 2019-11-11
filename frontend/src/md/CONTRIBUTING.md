@@ -1,2 +1,0 @@
-#<i class="icon-fork"></i> Contributing
-This is a personal branding project.  Software files are not for distribution and contributions to this project are limited to project collaborators and clients.
