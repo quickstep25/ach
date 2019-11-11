@@ -1,0 +1,107 @@
+# USE THIS FILE TO SET MARK FILES TO BE IGNORED BY SOURCE CONTROL AT THE
+# APPLICATION OR PROJECT LEVEL
+
+# OPTIONALLY CREATE A .gitignore_global  FILE TO MARK FILES TO BE
+# IGNORED BY SOURCE CONTROL FORALL GIT PROJECTS AND REPOSITORIES.
+# SAVE THIS FILE IN THE ROOT DIRECTORY WHERE GIT WAS INITIALLY INSTALLED
+# THIS IS USUALLY THE USER ACCOUNT $HOME DIRECTORY
+
+# DEVELOPMENT ASSETS
+**/_dev
+**/_devassets
+**/_dev_assets
+**/_assets
+
+# COMPILED SOURCE FILES #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# PACKAGED AND COMPRESSED FILES #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# BINARY FILES #
+*.psd
+*.ai
+*.epo
+*.eps
+*.mp4
+*.mov
+*.mp3
+
+# LOG FILES #
+*.log
+
+# MACOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# WINDOWS
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# NODE MODULES
+**/node_modules
+**/packages
+**/bin
+
+# BOWER MODULES
+**/bower_components
+**/bower_modules
+
+# DREAMWEAVER WORKSPACE
+**/_notes
+
+# CODEKIT 2 WORKSPACE #
+*.codekit-cache
+
+# VISUAL STUDIO CODE WORKSPACE
+*.code-workspace
+
+# SUBLIME TEXT WORKSPACE
+*.sublime-project
+*.sublime-workspace
+
+# GOOGLE ANALYTICS AND WEB SERVER ADMINISTRATION FILES #
+**google*.html

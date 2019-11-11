@@ -1,0 +1,104 @@
+# SET DEFAULT BEHAVIOR
+* text=auto
+
+# TEXT FILES
+*.txt       text
+*.ini       text
+*.inc       text
+*.csv       text
+*.tab       text
+*.tsv       text
+
+# DOCUMENTS
+*.doc	            diff=astextplain
+*.DOC	            diff=astextplain
+*.docx              diff=astextplain
+*.DOCX              diff=astextplain
+*.dot               diff=astextplain
+*.DOT               diff=astextplain
+*.pdf               diff=astextplain
+*.PDF               diff=astextplain
+*.rtf       text    diff=astextplain
+*.RTF       text    diff=astextplain
+*.md        text    diff=astextplain
+
+#CODE
+*.cs        text    diff=csharp
+*.py        text    diff=python
+*.java      text    diff=java
+*.rb        text    diff=ruby
+
+# WEB DOCUMENTS
+*.php       text    diff=php
+*.css       text    diff=css
+*.scss      text    diff=css
+*.scss      text    diff=css
+*.less      text    diff=css
+*.js        text
+*.htm       text    diff=html
+*.html      text    diff=html
+*.rdl       text    diff=html
+*.cfm       text
+*.cfml      text
+*.haml      text
+*.jade      text
+*.pug       text
+*.svg       text
+
+# CONFIGURATION
+*.config    text
+.htaccess   text
+
+# SERIALIZATION
+*.json      text
+*.toml      text
+*.xml       text
+*.yaml      text
+*.yml       text
+
+# SCRIPTS
+*.sql       text
+*.bash      text
+*.sh        text
+
+# SCRIPTS - WINDOWS
+*.bat       text
+*.cmd       text
+*.ps1       text
+
+# ARCHIVES
+*.7z        binary
+*.gz        binary
+*.tar       binary
+*.rar       binary
+*.jar       binary
+*.zip       binary
+*.br        binary
+
+# GRAPHIC
+*.mov       binary
+*.mp4       binary
+*.mp3       binary
+*.mpeg      binary
+*.flv       binary
+*.fla       binary
+*.swf       binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.tif       binary
+*.tiff      binary
+*.ttf       binary
+*.psd       binary
+*.ai        binary
+*.eps       binary
+*.webp      binary
+
+# FONTS
+*.woff2     binary
+
+# BINARY FILES
+*.xls       binary
+*.xlsx      binary
