@@ -16,8 +16,8 @@
 *.DOCX              diff=astextplain
 *.dot               diff=astextplain
 *.DOT               diff=astextplain
-*.pdf               diff=astextplain
-*.PDF               diff=astextplain
+*.pdf       -text   diff=extDiff
+*.PDF       -text   diff=extDiff
 *.rtf       text    diff=astextplain
 *.RTF       text    diff=astextplain
 *.md        text    diff=astextplain
@@ -50,16 +50,17 @@
 .htaccess   text
 
 # SERIALIZATION
-*.json      text
-*.toml      text
-*.xml       text
-*.yaml      text
-*.yml       text
+*.json      -text
+*.toml      -text
+*.xml       -text
+*.yaml      -text
+*.yml       -text
 
 # SCRIPTS
 *.sql       text
 *.bash      text
-*.sh        text
+*.sh        text	eol=lf
+*.vcproj	text 	eol=crlf
 
 # SCRIPTS - WINDOWS
 *.bat       text
@@ -76,25 +77,25 @@
 *.br        binary
 
 # GRAPHIC
-*.mov       binary
-*.mp4       binary
-*.mp3       binary
-*.mpeg      binary
-*.flv       binary
-*.fla       binary
-*.swf       binary
-*.png       binary
-*.jpg       binary
-*.jpeg      binary
-*.gif       binary
-*.ico       binary
-*.tif       binary
-*.tiff      binary
-*.ttf       binary
-*.psd       binary
-*.ai        binary
-*.eps       binary
-*.webp      binary
+*.mov       -text	binary
+*.mp4       -text	binary
+*.mp3       -text	binary
+*.mpeg      -text	binary
+*.flv       -text	binary
+*.fla       -text	binary
+*.swf       -text	binary
+*.png       -text	diff=extDiff
+*.jpg       -text	diff=extDiff
+*.jpeg      -text	diff=extDiff
+*.gif       -text	diff=extDiff
+*.ico       -text	diff=extDiff
+*.tif       -text	diff=extDiff
+*.tiff      -text	diff=extDiff
+*.ttf       -text	diff=extDiff
+*.psd       -text	diff=extDiff
+*.ai        -text	diff=extDiff
+*.eps       -text	diff=extDiff
+*.webp      -text	diff=extDiff
 
 # FONTS
 *.woff2     binary
