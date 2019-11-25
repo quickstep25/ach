@@ -81,6 +81,10 @@ $RECYCLE.BIN/
 *.msp
 *.lnk
 
+# FOLDER ICON
+/icon.png
+/Icon?
+
 # NODE MODULES
 **/node_modules
 **/packages
